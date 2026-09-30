@@ -69,7 +69,7 @@ export default function ContactPage() {
             src: "/images/contact-team-hero-v10.jpg",
             alt: `The ${site.name} team at the Novato shop`,
             // Focal: group in open right half of user-supplied wide plate
-            focal: "72% 42%",
+            focal: "78% 42%",
           }}
           actions={
             <>
