@@ -68,8 +68,8 @@ export default function ContactPage() {
           image={{
             src: "/images/contact-team-hero-v12.jpg",
             alt: `The ${site.name} team at the Novato shop`,
-            // Focal: open-half midpoint (lockup ends ~50%; team mid ~75% on wide plate)
-            focal: "75% 42%",
+            // Focal: landmark in open half (lockup ~50% → right edge; plate team mid ~75%)
+            focal: "80% 42%",
           }}
           actions={
             <>
