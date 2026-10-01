@@ -59,14 +59,14 @@ export function PageHero({
           className="object-cover"
           style={{ objectPosition: image.focal }}
         />
-        {/* Left-justified lockup → gradient from the left (desktop+) */}
+        {/* Left-justified lockup → scrub under type only; clear before open-half subject (~50%+) */}
         <div
-          className="absolute inset-0 hidden bg-gradient-to-r from-[#0d1116] from-0% via-[#0d1116]/90 via-30% to-transparent to-[68%] md:block"
+          className="absolute inset-0 hidden bg-gradient-to-r from-[#0d1116] from-0% via-[#0d1116]/92 via-28% to-transparent to-[52%] md:block"
           aria-hidden
         />
         {/* Mobile: type still left-aligned in the short frame - side scrub + light bottom for contrast */}
         <div
-          className="absolute inset-0 bg-gradient-to-r from-[#0d1116] from-0% via-[#0d1116]/88 via-40% to-transparent to-[75%] md:hidden"
+          className="absolute inset-0 bg-gradient-to-r from-[#0d1116] from-0% via-[#0d1116]/90 via-35% to-transparent to-[58%] md:hidden"
           aria-hidden
         />
         <div
